@@ -1,0 +1,9 @@
+{
+    "environment": "development",
+    "defaultTheme": "yeti",
+    "path": {
+        "view": {
+            "templates": "assets/linker/templates/"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "translate": {
+        "web": {
+            "url": "http://127.0.0.1",
+            "port": 5000
+        }
+    },
+    "mongo": {
+        "error": {
+            "log": "logs/mongo.log"
+        }
+    },
+    "cache": {
+        "reloadCachedFilesFromGameOnStart": true
+    },
+    "path": {
+        "base": "__dynamic__",
+        "config": {
+            "app": "config/app/",
+            "local": "config/local/",
+            "shared": "shared/config/"
+        },
+        "languages": "config/locales/",
+        "view": {
+            "partials": "/_partials/"
+        }
+    },
+    "db" : {
+        "collectionsContainingCodeColumn": [
+            "sentence",
+            "role",
+            "type",
+            "category"
+        ]
+    },
+    "web": {
+        "autoStartGrunt": false
+    }
+
+}

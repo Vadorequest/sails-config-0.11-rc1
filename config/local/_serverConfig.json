@@ -1,0 +1,8 @@
+{
+    "cache": {
+        "reloadCachedFilesFromGameOnStart": false
+    },
+    "web": {
+        "autoStartGrunt": true
+    }
+}
